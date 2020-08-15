@@ -1,0 +1,128 @@
+Package                           Version   Location
+--------------------------------- --------- ------------------------------------------------------------------------------------------------------
+adal                              1.2.4
+astroid                           2.4.2
+autopep8                          1.5.3
+azure-common                      1.1.25
+azure-core                        1.8.0
+azure-identity                    1.4.0
+azure-keyvault-secrets            4.2.0
+azure-mgmt-resource               10.2.0
+azure-mgmt-sql                    0.20.0
+azure-sql-project                 0.0.1     c:\users\alex\onedrive\desktop\sigma\repo - azure data\azure-sql-data-project
+backcall                          0.2.0
+beautifulsoup4                    4.9.1
+bleach                            3.1.5
+cachetools                        4.1.1
+certifi                           2020.6.20
+cffi                              1.14.0
+chardet                           3.0.4
+click                             6.7
+colorama                          0.4.3
+cryptography                      2.9.2
+cycler                            0.10.0
+decorator                         4.4.2
+docutils                          0.16
+fake-useragent                    0.1.11
+federal-register                  0.0.1     c:\users\alex\onedrive\desktop\sigma\repo - api client federal register\us-federal-register-python-api
+finnews                           0.0.1     c:\users\alex\onedrive\desktop\sigma\repo - pyfinnews\finance-news-aggregator
+Flask                             1.0.2
+Flask-Cors                        3.0.8
+github-manager                    0.0.1     c:\users\alex\onedrive\desktop\personal code\github-management
+google-api-core                   1.21.0
+google-api-python-client          1.10.0
+google-auth                       1.19.2
+google-auth-httplib2              0.0.4
+google-auth-oauthlib              0.4.1
+googleapis-common-protos          1.52.0
+httplib2                          0.18.1
+idna                              2.10
+ipykernel                         5.3.4
+ipython                           7.16.1
+ipython-genutils                  0.2.0
+isodate                           0.6.0
+isort                             4.3.21
+itsdangerous                      0.24
+jedi                              0.17.2
+Jinja2                            2.10
+joblib                            0.16.0
+jupyter-client                    6.1.6
+jupyter-core                      4.6.3
+keyring                           21.2.1
+kiwisolver                        1.2.0
+lazy-object-proxy                 1.4.3
+MarkupSafe                        1.1.0
+matplotlib                        3.3.0
+mccabe                            0.6.1
+microsoft-office-object-model     0.1.0     c:\users\alex\onedrive\desktop\sigma\repo - pyoffice\excel-object-model-for-python
+msal                              1.4.3
+msal-extensions                   0.2.2
+msrest                            0.6.18
+msrestazure                       0.6.4
+mutagen                           1.45.0
+numpy                             1.19.0
+oauthlib                          3.1.0
+packaging                         20.4
+pandas                            1.0.5
+parso                             0.7.1
+pickleshare                       0.7.5
+Pillow                            7.2.0
+pip                               20.2.2
+pipdeptree                        1.0.0
+pkginfo                           1.5.0.1
+portalocker                       1.7.1
+prompt-toolkit                    3.0.5
+protobuf                          3.12.2
+py-portfolio                      0.0.1     c:\users\alex\onedrive\desktop\sigma\projects- finance ml\portfolio-optimization
+pyasn1                            0.4.8
+pyasn1-modules                    0.2.8
+pycodestyle                       2.6.0
+pycparser                         2.20
+Pygments                          2.6.1
+PyJWT                             1.7.1
+pylint                            2.5.3
+pymusic                           0.1.0     c:\users\alex\onedrive\desktop\personal code\music-management
+pyodbc                            4.0.30
+pyOpenSSL                         19.1.0
+pyparsing                         2.4.7
+pyrobot                           0.1.0     c:\users\alex\onedrive\desktop\sigma\repo - pyrobot\python-trading-robot
+python-bea                        0.1.0
+python-dateutil                   2.8.1
+python-sec                        0.1.0     c:\users\alex\onedrive\desktop\sigma\repo - pysec\python-sec
+pythonnet                         2.5.1
+pytube                            9.6.0
+pytube3                           9.6.4
+pytz                              2020.1
+pywin32                           228
+pywin32-ctypes                    0.2.0
+pyzmq                             19.0.1
+readme-renderer                   26.0
+requests                          2.24.0
+requests-oauthlib                 1.3.0
+requests-toolbelt                 0.9.1
+rfc3986                           1.4.0
+rsa                               4.6
+scikit-learn                      0.23.1
+scipy                             1.5.2
+setuptools                        49.3.1
+six                               1.15.0
+soupsieve                         2.0.1
+tabulate                          0.8.7
+td-ameritrade-python-api          0.3.0     c:\users\alex\onedrive\desktop\sigma\repo - api client td ameritrade\td-ameritrade-python-api
+threadpoolctl                     2.1.0
+toml                              0.10.1
+tornado                           6.0.4
+tqdm                              4.48.0
+traitlets                         4.3.3
+twine                             3.2.0
+typing-extensions                 3.7.4.2
+united-states-congress-python-api 0.0.2
+uritemplate                       3.0.1
+urllib3                           1.25.9
+wcwidth                           0.2.5
+webencodings                      0.5.1
+websockets                        8.1
+Werkzeug                          0.14.1
+wheel                             0.34.2
+wrapt                             1.12.1
+youtube                           0.1.0     c:\users\alex\onedrive\desktop\personal code\youtube-api

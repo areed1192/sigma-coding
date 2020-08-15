@@ -122,7 +122,8 @@ global-exclude td/config.py
 
 ### Step3: Install `setuptools`
 
-We will be using the `setuptools` module to package our modules. If you don't have have `setuptools` installed you'll need to install it. To install it, run the following command in your console.
+We will be using the `setuptools` module to package our modules. If you don't have have `setuptools` installed you'll need to install it.
+To install it, run the following command in your console.
 
 ```console
 pip install setuptools wheel
@@ -136,13 +137,16 @@ pip install --upgrade setuptools wheel
 
 ### Step 4: Install `twine`
 
-Twine is the primary tool developers use to upload packages to the Python Package Index or other Python package indexes. It is a command-line program that passes program files and metadata to a web API. Developers use it because it’s the official PyPI upload tool, it’s fast and secure, it’s maintained, and it reliably works. To install `twine`, run the following command:
+Twine is the primary tool developers use to upload packages to the Python Package Index or other Python package indexes.
+It is a command-line program that passes program files and metadata to a web API. Developers use it because it’s the official
+PyPI upload tool, it’s fast and secure, it’s maintained, and it reliably works. To install `twine`, run the following command:
 
 ```console
 pip install twine
 ```
 
-if you already have ir you'll want to make sure you're on the latest version, so make sure to update it using the following commands:
+if you already have ir you'll want to make sure you're on the latest version, so make sure to update it using the
+following commands:
 
 ```console
 pip install --upgrade twine
@@ -150,17 +154,21 @@ pip install --upgrade twine
 
 ### Step 5: Build our Distribution Package
 
-Now that we have everything installed, we can build or distribution package. To build our distribution pacakge run the following command:
+Now that we have everything installed, we can build or distribution package. To build our distribution
+pacakge run the following command:
 
 ```console
 python setup.py sdist bdist_wheel
 ```
 
-This will generate a distrubtion archives in the _dist_ folder. In fact, if you look in your directory you should see a few new folders one called _dist_ and one called _build_. These were generated when we ran the command.
+This will generate a distrubtion archives in the _dist_ folder. In fact, if you look in your directory you should see
+a few new folders one called _dist_ and one called _build_. These were generated when we ran the command.
 
 ### Step 6: Upload our Distribution Pacakge to PyPi test Index
 
-Before you run this command you need to have an account registered with PyPi, to register an account go to this [link](https://test.pypi.org/account/register). After you register your account you'll want an access token so that way you can upload distribtions to the index.
+Before you run this command you need to have an account registered with PyPi, to register an account go
+to this [link](https://test.pypi.org/account/register). After you register your account you'll want an access
+token so that way you can upload distribtions to the index.
 
 To upload the distribution run the following command:
 
@@ -178,24 +186,32 @@ twine upload --repository pypi --config-file pypirc dist/*
 
 You will be prompted to enter your `username` and `password` once you've done that you should see similar output as seen below:
 
-```console
+```bash
+
 Uploading distributions to https://test.pypi.org/legacy/
 Enter your username: [your username]
-Enter your password:
+Enter your password: [your password]
+
 Uploading example_pkg_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
 100%|█████████████████████| 4.65k/4.65k [00:01<00:00, 2.88kB/s]
+
 Uploading example_pkg_YOUR_USERNAME_HERE-0.0.1.tar.gz
 100%|█████████████████████| 4.25k/4.25k [00:01<00:00, 3.05kB/s]
 ```
 
-Alternatively, if you don't want to enter your username and password, then you can use your access token instead. However, to use your access token set `username` to `__token__` and for the `password` use the `token_value` including the `pypi-` prefix. Here is how it would look:
+Alternatively, if you don't want to enter your username and password, then you can use your access token instead.
+However, to use your access token set `username` to `__token__` and for the `password` use the `token_value` including
+the `pypi-` prefix. Here is how it would look:
 
-```console
+```bash
+
 Uploading distributions to https://test.pypi.org/legacy/
 Enter your username: __token__
 Enter your password: pypi-<MY_ACCESS_TOKEN>
+
 Uploading example_pkg_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
 100%|█████████████████████| 4.65k/4.65k [00:01<00:00, 2.88kB/s]
+
 Uploading example_pkg_YOUR_USERNAME_HERE-0.0.1.tar.gz
 100%|█████████████████████| 4.25k/4.25k [00:01<00:00, 3.05kB/s]
 ```
@@ -204,7 +220,8 @@ Once uploaded your package should be viewable on TestPyPI, for example, <https:/
 
 ### Step 7: Install the newly uploaded package
 
-You can use pip to install your package and verify that it works. To install your package you would run the following command in your console:
+You can use pip to install your package and verify that it works. To install your package you would run the
+following command in your console:
 
 ```console
 pip install --index-url https://test.pypi.org/simple/ example_pkg
@@ -219,13 +236,16 @@ Installing collected packages: example-pkg-YOUR-USERNAME-HERE
 Successfully installed example-pkg-YOUR-USERNAME-HERE-0.0.1
 ```
 
+Now we can see the new library using the `pip show` command:
+
 ```console
 pip show td-ameritrade-python-api
 ```
 
 ### Step 8: Test that the package was installed correctly
 
-You can test that it was installed correctly by importing the package. Run the Python interpreter and from the interpreter shell import the package. Here is how it will look:
+You can test that it was installed correctly by importing the package. Run the Python interpreter and
+from the interpreter shell import the package. Here is how it will look:
 
 ```python
 python
