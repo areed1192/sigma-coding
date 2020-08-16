@@ -135,6 +135,15 @@ Options:
     --no-pin              Omit version of output packages.
 ```
 
+## Bugs with `pipreqs`
+
+Keep in mind you may experience a bug when it comes to the encoding of the file. If that pops up simply use
+the following command:
+
+```bash
+pipreqs --encoding utf-8
+```
+
 ## Option 3: `pipdeptree`
 
 ### What is `pipdeptree`
