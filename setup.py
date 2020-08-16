@@ -6,6 +6,7 @@ with open(file="README.md", mode="r") as readme_handle:
     long_description = readme_handle.read()
 
 setup(
+    
 
     # Define the library name, this is what is used along with `pip install`.
     name='sigma-coding',
